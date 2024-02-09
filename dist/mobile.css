@@ -45,9 +45,11 @@ hr {
 }
 
 .main-header {
-    color: blueviolet;
-    font-size: 3em;
+    color: darkslategray;
+    font-size: 2.4em;
+    font-family: serif;
     /* margin-left: 35px; */
+    display: inline-block;
 }
 
 #navbar a {

@@ -7,6 +7,7 @@ SITE_CONFIG = {
   "repo"    => "https://github.com/valixym/valixym.net",
   "title"   => "VALIXYM",
   "yao"     => ARGV[0],
+  "tagline" => "\"In Heaven, everything is fine\"",
 }
 
 FEATURED_IMAGE = {
