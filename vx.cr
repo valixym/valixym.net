@@ -15,8 +15,8 @@ def build_site(fn, tn)
     "tagline" => "\"In Heaven, everything is fine\"",
   }
 
-  content = File.read_lines("content/#{fn}")[2..-1].join("\n")
-  page_title = File.read_lines("content/#{fn}")[0]
+  content = File.read_lines("content/main/#{fn}")[2..-1].join("\n")
+  page_title = File.read_lines("content/main/#{fn}")[0]
 
   template = File.read("templates/#{tn}.html")
   xout = template.gsub("{% PAGE_CONTENT %}", content)
@@ -33,10 +33,11 @@ def build_site(fn, tn)
   File.write("dist/#{fn}", xout)
 end
 
-Dir.new("content").entries.each do |cf|
-  if cf == "Layer14"
+Dir.new("content/main").entries.each do |cf|
+  if cf == "."
     break
+  else
+    puts cf
+    build_site(cf, "index")
   end
-  build_site(cf, "index")
-  puts cf
 end
