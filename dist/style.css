@@ -65,3 +65,32 @@ hr {
 code b {
   color: gray;
 }
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 10px;
+  padding-left: 8px;
+}
+
+li:before {
+  content: "->";
+  display: inline-block;
+  font-family: monospace;
+  width: 1.3em;
+}
+
+ul a {
+  color: darkmagenta;
+}
+
+ul a:hover {
+  color: lightcoral;
+}
+
+ul a:active {
+  background: coral;
+  color: antiquewhite;
+}
