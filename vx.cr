@@ -10,7 +10,7 @@ def build_site(fn, tn)
     "url"     => "https://valixym.net",
     "contact" => "v@valixym.net",
     "repo"    => "https://github.com/valixym/valixym.net",
-    "title"   => "VALIXYM",
+    "title"   => "VALIXYM.NET",
     "yao"     => fn,
     "tagline" => "\"In Heaven, everything is fine\"",
   }
