@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  background: rgb(241, 240, 236);
+  color: black;
+}
+
+#main-copy {
+  margin-left: 75px;
+  max-width: 85%;
+}
+
+#main-copy img {
+  border: darkgray 2px solid;
+}
+
+#main-copy img:hover {
+  border: purple 2px solid;
+}
+
+#media {
+  color: slategrey;
+  max-width: 512px;
+  background-color: aliceblue;
+  padding: 20px;
+  float: left;
+  margin-right: 25px;
+  border: gray 1px solid;
+}
+
+hr {
+  border: gray 1px solid;
+  margin: 0px;
+}
+
+#media img {
+  max-width: 512px;
+}
+
+#media a {
+  color: blue;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.main-header {
+  color: blueviolet;
+  font-size: 3em;
+  margin-left: 35px;
+}
+
+#navbar a {
+  color: blue;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  color: red;
+}
+
+#main-copy h1 {
+  border-bottom: gray 1px solid;
+}
+
+code b {
+  color: gray;
+}
