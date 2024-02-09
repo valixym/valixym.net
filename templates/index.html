@@ -3,7 +3,10 @@
 
 <head>
   <title>{% PAGE_TITLE %} | {% site_title %}</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./mobile.css" media="screen and (max-width: 600px)">
 </head>
 
 <body>
@@ -21,6 +24,7 @@
       <i>Image courtesy of <b>{% fm_author %}</b>, licensed under <a href="{% fm_license_url %}">
           {% fm_license %}</a></i>
     </div>
+
     <h1>{% PAGE_TITLE %}</h1>
     {% PAGE_CONTENT %}
     <hr />
