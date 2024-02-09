@@ -9,10 +9,12 @@ SITE_CONFIG = {
   "yao"     => ARGV[0],
 }
 
-# FEATURED_IMAGES = {
-#   "url1" => "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Raspberries05.jpg/1200px-Raspberries05.jpg?20060301080442",
-#   "url2" => "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Jonos-table-photo_edit.jpg/1200px-Jonos-table-photo_edit.jpg?20240104074741",
-# }
+FEATURED_IMAGE = {
+  "url"         => "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Raspberries05.jpg/1200px-Raspberries05.jpg?20060301080442",
+  "author"      => "Fir0002",
+  "license"     => "CC BY-NC",
+  "license_url" => "https://creativecommons.org/licenses/by-nc/2.0/",
+}
 
 content = File.read_lines("content/#{fn}.html")[2..-1].join("\n")
 page_title = File.read_lines("content/#{fn}.html")[0]
@@ -25,7 +27,7 @@ SITE_CONFIG.each do |cfg|
   xout = xout.gsub("{% site_#{cfg[0]} %}", cfg[1])
 end
 
-FEATURED_IMAGES.each do |cfg|
+FEATURED_IMAGE.each do |cfg|
   xout = xout.gsub("{% fm_#{cfg[0]} %}", cfg[1])
 end
 
