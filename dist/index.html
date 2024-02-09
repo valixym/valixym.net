@@ -5,8 +5,11 @@
   <title>the page title | VALIXYM</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css" />
-  <link rel="stylesheet" href="./mobile.css" media="screen and (max-width: 600px)">
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="/mobile.css" media="screen and (max-width: 600px)">
+  <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/styles/kimbie-light.min.css">
+  <script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
 </head>
 
 <body>
@@ -14,7 +17,9 @@
     <a href="/">home</a> |
     <a href="/about.html">about</a> |
     <a href="/contact.html">contact</a> |
-    <a href="/projects.html">projects</a>
+    <a href="/projects.html">projects</a> |
+    <a href="/help.html">help</a> |
+    <i>you are on: <a href="/index.html">index</a></i>
   </div>
   <h1 class="main-header">VALIXYM</h1>
   <div id="main-copy">
@@ -27,6 +32,20 @@
 
     <h1>the page title</h1>
     <b>Welcome, traveller.</b> This is the newest incarnation of my website, and I hope you're enjoying your stay here.
+
+
+
+<pre>
+        <code class="language-rust">
+// Here's some subpar Rust code to test my syntax highlighting
+use std::u8;
+
+fn main() {
+    let x: u8 = 250;
+    println!("hello, world! {}", x.to_string());
+}
+        </code>
+</pre>
     <hr />
   </div>
   <code><i>built using <b>malinowy</b></i></code>

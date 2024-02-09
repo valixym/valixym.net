@@ -55,7 +55,8 @@ hr {
 }
 
 #navbar a:hover {
-  color: red;
+  color: white;
+  background: blue;
 }
 
 #main-copy h1 {
@@ -93,4 +94,27 @@ ul a:hover {
 ul a:active {
   background: coral;
   color: antiquewhite;
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  color: white;
+  background: blue;
+}
+
+pre code {
+  border: 1px solid black;
+}
+
+.tip {
+  border: double 2px darkslategray;
+  cursor: help;
+  padding: 2px;
+}
+
+.tip:hover {
+  background: rgb(214, 211, 201);
 }
