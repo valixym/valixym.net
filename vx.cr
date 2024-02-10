@@ -1,6 +1,6 @@
 FEATURED_IMAGE = {
-  "url"         => "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/RussianAbortionPoster.jpg/773px-RussianAbortionPoster.jpg?20180621140613",
-  "author"      => "the National Library of Medicine",
+  "url"         => "https://files.catbox.moe/khx543.gif",
+  "author"      => "Valixym",
   "license"     => "Public Domain",
   "license_url" => "https://en.wikipedia.org/wiki/Public_domain",
 }
