@@ -1,8 +1,8 @@
 FEATURED_IMAGE = {
-  "url"         => "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Raspberries05.jpg/1200px-Raspberries05.jpg?20060301080442",
-  "author"      => "Fir0002",
-  "license"     => "CC BY-NC",
-  "license_url" => "https://creativecommons.org/licenses/by-nc/2.0/",
+  "url"         => "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/RussianAbortionPoster.jpg/773px-RussianAbortionPoster.jpg?20180621140613",
+  "author"      => "the National Library of Medicine",
+  "license"     => "Public Domain",
+  "license_url" => "https://en.wikipedia.org/wiki/Public_domain",
 }
 
 def build_site(fn, tn)

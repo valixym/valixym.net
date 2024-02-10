@@ -147,3 +147,19 @@ pre code {
   color: rgb(241, 240, 236);
   background: black;
 }
+
+/* I insulted the hell out of ChatGPT to get this code btw :3 */
+.poland {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  max-width: 100%;
+  /* Ensure the image doesn't exceed the viewport width */
+  max-height: 100%;
+  /* Ensure the image doesn't exceed the viewport height */
+  opacity: 0.2;
+  /* Adjust the opacity as needed */
+  z-index: 999;
+  /* Adjust the z-index to ensure it's on top of other elements */
+  border: 1px solid darkslategray;
+}
